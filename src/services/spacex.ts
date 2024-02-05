@@ -23,7 +23,7 @@ export const getLatestLaunches = async () => {
             sort: {
                 date_unix:'asc'
             },
-            limit:12,
+            limit:40,
          },
         }),
     })
